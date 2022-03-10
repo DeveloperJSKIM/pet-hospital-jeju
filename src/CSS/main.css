@@ -1,0 +1,21 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-container-inner{
+    display: flex;
+    flex-direction: column;
+    background-color:#CA996B;
+    border-radius: 20px;
+    padding: 20px;
+}
+.main-table{
+    display: flex;
+    flex-direction: column;
+}
+.main-table-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
