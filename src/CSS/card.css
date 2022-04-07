@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+}
+.icon-box{
+    display: flex;
+    background-color: #FFDC92;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.icon-img{
+    display: flex;
+}
+.card-text-box{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+.card-text-box span{
+    font-size: 0.9em;
+}
+.card-text-box a{
+    text-decoration: none;
+    color: black;
+}
+.card-text-box-side{
+    width: 20%;
+    align-items: center;
+}
+.bottom-banner-box-inner a{
+    text-decoration: none;
+    color: black;
+}

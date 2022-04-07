@@ -6,7 +6,6 @@
 .main-container-inner{
     display: flex;
     flex-direction: column;
-    background-color:#CA996B;
     border-radius: 20px;
     padding: 20px;
 }
@@ -18,4 +17,55 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.main-banner{
+    background-color: #FFD171;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-banner-inner-img-box{
+    display: flex;
+    height: 100px;
+}
+.main-banner-inner-text-box{
+    display: flex;
+    margin-left: 20px;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.button-container img{
+    width: 30px;
+    height: 40px;
+    margin-right: 10px;
+}
+.bottom-banner{
+    background-color: #FFD171;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-banner-box{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.bottom-banner-box-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.github-icon{
+    font-size: 50px;
 }
