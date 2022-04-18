@@ -23,7 +23,7 @@ const Main =()=>{
         "지번":string,
         "형태":string,
         "거리"?:number,
-        "휴무일"?:string,
+        "휴무일"?:any,
         "영업시간"?:string
     }];
     type InitLocation = {
