@@ -2,6 +2,7 @@
     display: flex;
     padding: 20px;
     align-items: center;
+    overflow-x: hidden;
 }
 .icon-box{
     display: flex;
@@ -38,4 +39,26 @@
 .bottom-banner-box-inner a{
     text-decoration: none;
     color: black;
+}
+@media (max-width: 800px){
+    .container{
+        padding: 0;
+        width: 100%;
+    }
+    .icon-box{
+        width: 0;
+        padding: 0;
+    }
+    .icon-img{
+        width: 0;
+    }
+    .card-text-box b{
+        font-size: 12px;
+    }
+    .card-text-box span{
+        font-size: 10px;
+    }
+    .card-text-box h4{
+        font-size: 15px;
+    }
 }

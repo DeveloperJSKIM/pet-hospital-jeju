@@ -65,7 +65,7 @@ const Card =({title, address,call,rest,time,
                 </div>
                 <div className={"card-text-box"}>
                     <b>{title}</b>
-                    <span>{address}</span>
+                    <span>{address.substring(7)}</span>
                     <span>{call}</span>
                 </div>
                 <div className={"card-text-box card-text-box-side"}>
@@ -75,6 +75,11 @@ const Card =({title, address,call,rest,time,
                         :<span>데이터없음</span>
                     }
                     <span>{time}</span>
+                    {
+                        isOpen()
+                            ?<span style={{color:"green"}}>영업중</span>
+                            :null
+                    }
                 </div>
                 <div className={"card-text-box card-text-box-side"}>
                     {
@@ -85,13 +90,6 @@ const Card =({title, address,call,rest,time,
                 </div>
                 <div className={"card-text-box card-text-box-side"}>
                     <a href={`tel:${call}`}><AiFillPhone size={30}/></a>
-                </div>
-                <div className={"card-text-box card-text-box-side"}>
-                    {
-                        isOpen()
-                            ?<span style={{color:"green"}}>영업중</span>
-                            :null
-                    }
                 </div>
             </div>
         </>
